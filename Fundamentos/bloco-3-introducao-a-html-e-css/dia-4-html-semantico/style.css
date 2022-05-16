@@ -1,0 +1,117 @@
+body {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #2A3596;
+}
+
+header li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+header a{
+	text-decoration: none;
+	font-weight: bold;
+	color: aliceblue;
+	font-size: 20px;
+}
+
+table {
+	width: 100%;
+}
+
+table tr td { 
+	padding: 5px;
+	width: 60px;
+	font-weight: 600;
+}
+
+table tr td:nth-of-type(2n) {
+	border: #2A3596 3px solid;
+	color: gray;
+}
+
+table tr td:nth-of-type(2n+1) {
+	border: gray 3px solid ;
+}
+
+article {
+	width: 750px;
+	border-radius: 30px;
+	background-color: aliceblue;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	display: inline-block;
+}
+
+aside{
+	width: 140px;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	background-color: aliceblue;
+	border-radius: 30px;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+aside p {
+	margin: 0px;
+	margin-bottom: 10px;	
+}
+
+aside a{
+	font-weight: bolder;
+  line-height: 25px;
+}
+
+img {
+	display: block;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header, footer, article, aside {
+	font-family: Helvetica, sans-serif
+}
+
+section p, section li {
+	color: gray;
+	font-weight: bolder;
+	line-height: 25px;
+	letter-spacing: 3;
+}
+
+section h3, h4{
+	letter-spacing: 3;
+}
+
+footer {
+	width: 750px;
+	margin-right:auto;
+	margin-left:auto;
+}
+footer p{
+	color: aliceblue;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+h1{
+	color: aliceblue;
+}
+
+ul {
+	padding: 10px;
+}
+
+
+
+
